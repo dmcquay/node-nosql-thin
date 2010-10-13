@@ -1,13 +1,18 @@
 #node-nosql-thin
 
-This library helps you use MongoDB. Eventually it may support other document-oriented (NoSQL) databases.
-
-#Design goals
+This library helps you use MongoDB without forcing you to use an ORM. Eventually it may support other
+document-oriented (NoSQL) databases.
 
 In many cases, especially with document oriented databases, an ORM is no longer needed. The documents
 are easy to work with and map naturally to objects. In some cases, the user many not even want to
 map the documents to anything, but would prefer to work with the documents directly. Based on that
 theory, here are the design goals.
+
+#Installation
+
+npm install nosql-thin@latest
+
+#Design goals
 
  - Allow users to pass in raw documents and provide a means for them to get raw documents in response.
  - In the case that a user does want to use a model, provide a simple means of integrating their model
