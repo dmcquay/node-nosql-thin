@@ -13,6 +13,7 @@ theory, here are the design goals.
  - In the case that a user does want to use a model, provide a simple means of integrating their model
    with this library (e.g. so they can call model.save() or get a list of models in response to a query).
  - Don't couple this code with the user's model code. Let the user make their models however they want.
+ - Simplify simple operations such as saving or finding so they can be done with a single call.
  - Provide a means to configure connections in one place.
  - Provide simple connection pooling.
 
@@ -23,3 +24,5 @@ support any other methods). Not all of the design goals are achieved yet. In par
 is lacking:
 
  - Allow users to pass in raw documents and provide a means for them to get raw documents in response.
+ - In the case that a user does want to use a model, provide a simple means of integrating their model
+   with this library (e.g. so they can call model.save() or get a list of models in response to a query).
