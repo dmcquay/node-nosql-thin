@@ -1,6 +1,6 @@
-#node-data-provider
+#node-nosql-thin
 
-This library helps you use MongoDB. Eventually it may support other document-oriented databases.
+This library helps you use MongoDB. Eventually it may support other document-oriented (NoSQL) databases.
 
 #Design goals
 
