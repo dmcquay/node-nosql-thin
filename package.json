@@ -1,0 +1,20 @@
+{ "name" : "nosql-thin"
+, "description" : "A thin wrapper around MongoDB -- NOT AN ORM"
+, "version" : "0.0.1"
+, "author" : "Dustin McQuay <dmcquay@gmail.com>"
+, "repository" :
+  { "type" : "git"
+  , "url" : "git://github.com/dmcquay/node-nosql-thin.git"
+  }
+, "bugs" : { "web" : "http://github.com/dmcquay/node-nosql-thin/issues" }
+, "os" : [ "linux", "darwin", "freebsd" ]
+, "directories" : { "lib" : "./lib/" }
+, "main" : "./index"
+, "dependencies" : { "vows" : ">=0.5.0" }
+, "engines" : { "node" : ">=0.1.97" }
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "http://github.com/dmcquay/node-nosql-thin/raw/master/LICENSE"
+    }
+  ]
+}
